@@ -1,2 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="com.joh.communicate" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>communicator</name><description>Cordova Plugin for Contunious Speech Recognition</description><js-module name="communicator" src="www/communicator.js"><clobbers target="cordova.plugins.communicator" /></js-module><platform name="android"><config-file parent="/*" target="res/xml/config.xml"><feature name="communicator"><param name="android-package" value="com.joh.communicate.communicator" /></feature></config-file><config-file parent="/*" target="AndroidManifest.xml"></config-file><source-file src="src/android/communicator.java" target-dir="src/com/joh/communicate/communicator" /></platform></plugin>
+<plugin id = "cordova-plugin-communicator" version = "0.0.1" xmlns = "http://apache.org/cordova/ns/plugins/1.0" xmlns: android = "http://schemas.android.com/apk/res/android">
+<name>communicator</name>
+<description>This plugin to take values from java to HTML</description>
+<js-module name = "communicator" src = "www/communicator.js">
+<clobbers target = "cordova.plugins.communicator" />
+</js-module>
+<platform name = "android">
+<config-file parent = "/*" target = "res/xml/config.xml">
+<feature name = "communicator"><param name = "android-package" value = "com.joh.communicate.communicator" /></feature>
+</config-file>
+<config-file parent = "/*" target = "AndroidManifest.xml"></config-file>
+<source-file src = "src/android/communicator.java" target-dir = "src/com/joh/communicate/communicator" />
+<source-file src = "src/android/PermissionHandler.java" target-dir = "src/com/joh/communicate/communicator" />
+<source-file src = "src/android/SpeechRecognizerManager.java" target-dir = "src/com/joh/communicate/communicator" />
+</platform></plugin>

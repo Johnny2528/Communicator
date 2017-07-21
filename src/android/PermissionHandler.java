@@ -1,4 +1,4 @@
-package com.continuesvoicerecognition;
+package com.joh.communicate;
 
 import android.Manifest;
 import android.app.Activity;
@@ -9,9 +9,6 @@ import android.support.v4.content.ContextCompat;
 import android.widget.Toast;
 
 
-/**
- * Created by root on 19/10/15.
- */
 public class PermissionHandler {
 
 

@@ -1,4 +1,4 @@
-package com.continuesvoicerecognition;
+package com.joh.communicate;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,9 +13,7 @@ import android.util.Log;
 
 import java.util.ArrayList;
 
-/**
- * Created by yoda on 16/11/15.
- */
+
 public class SpeechRecognizerManager {
 
     protected AudioManager mAudioManager;

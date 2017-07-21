@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-communicator",
+  "version": "0.0.1",
+  "description": "Cordova Plugin for Speech Recognition",
+  "cordova": {
+    "id": "cordova-plugin-communicator",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Johnny2528/Communicator.git"
+  },
+  "keywords": [
+    "cordova",
+    "speech",
+    "recognition",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Johnny Vinod Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Johnny2528/Communicator/issues"
+  },
+  "homepage": "https://github.com/Johnny2528/Communicator#readme"
+}
